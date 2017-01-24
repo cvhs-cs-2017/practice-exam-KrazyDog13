@@ -1,2 +1,10 @@
 """Use a loop to make a turtle draw a shape that is has at least 100 sides and
-that shows symmetry.  The entire shape must fit inside the screen""" 
+that shows symmetry.  The entire shape must fit inside the screen"""
+import turtle
+wn = turtle.Screen()
+Logans Turtle = turtle.Turtle()
+Logans Turtle.color("Blue")
+
+for i in range(100):
+    Logans Turtle.forward(50)
+    Logans Turtle.left(50)
