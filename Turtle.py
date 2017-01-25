@@ -1,6 +1,5 @@
 """ Create a Turtle, name it, make it BLUE and draw a Smiley Face"""
 import turtle
-wn = turtle.Screen()
 Logan Smile = turtle.Turtle()
 Logan Smile.color("Blue")
 
