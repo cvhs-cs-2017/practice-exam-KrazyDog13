@@ -5,5 +5,5 @@ logan = turtle.Turtle()
 logan.color("red")
 
 for i in range(100):
-    logan.forward(11)
-    logan.left(3.6)
+    logan.forward(200)
+    logan.left(170)
