@@ -1,7 +1,7 @@
 """Write a code that will take (AnyString) and substitute all vowels with
 character's like $#%^&* etc..... but DO NOT USE ' or " as any of your characters."""
 def void(o):
-    v = "aeiousAEIOU"
+    v = "aeiouAEIOU"
     w = " "
     for x in o:
         if x in v:
@@ -9,4 +9,4 @@ def void(o):
 
     w += x
     return w
-print(void("Cool"))
+print(void("Eagle Named Bob"))
